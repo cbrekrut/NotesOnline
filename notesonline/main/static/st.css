@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f1e9; /* Пастельно-розовый фон */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e1cfc6; /* Песочный контур */
+    border-radius: 10px;
+    background-color: #fff; /* Белый фон */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #bc8f8f; /* Теплый розовый заголовок */
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#note-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #e1cfc6; /* Песочный контур */
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #bc8f8f; /* Теплый розовый фон */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a67171; /* Темно-розовый фон при наведении */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border: 1px solid #e1cfc6; /* Песочный контур */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #fce2ce; /* Персиковый фон */
+    color: #6d544d; /* Коричневый текст */
+}
+
+li:last-child {
+    margin-bottom: 0;
+}

@@ -1,9 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello Django</title>
+    <title>NotesOnline</title>
+    <link rel="stylesheet" href="{% static 'st.css' %}">
 </head>
 <body>
-    <h1>Hello, {{ name }}!</h1>
+    <div class="container">
+        <h1>NotesOnline</h1>
+        <form id="note-form">
+            <input type="text" id="note-input" placeholder="Введите вашу заметку">
+            <button type="submit">Добавить</button>
+        </form>
+        <ul id="note-list">
+            <!-- Список заметок будет здесь -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
